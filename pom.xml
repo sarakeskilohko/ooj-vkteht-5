@@ -20,12 +20,12 @@
     
     <!-- The three parts of the artifact name -->
     <groupId>fi.utu.tech</groupId>
-    <artifactId>ooj-template</artifactId>
+    <artifactId>ooj-harj5</artifactId>
     <version>1.0.0</version>
     
     <!-- Additional information about the project -->
-    <name>Example code for testing</name>
-    <url>https://gitlab.utu.fi/tech/education/ooj/ooj-template</url>
+    <name>Viikkoharjoitus 5</name>
+    <url>https://gitlab.utu.fi/tech/education/ooj/ooj-harj5</url>
 
     <!-- We want to generate a jar. Don't change. -->
     <packaging>jar</packaging>

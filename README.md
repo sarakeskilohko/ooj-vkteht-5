@@ -3,8 +3,8 @@
 ## Workflow
 
 ```bash
-$ git clone https://gitlab.utu.fi/tech/education/ooj/ooj-template
-$ cd ooj-template
+$ git clone https://gitlab.utu.fi/tech/education/ooj/ooj-harj5
+$ cd ooj-harj5
 
 < tee tehtävät >
 
@@ -34,4 +34,6 @@ $ mvn surefire-report:report
 
 ## Online report
 
-See <https://gitlab.utu.fi/tech/education/ooj/ooj-template/pages>
+See <https://gitlab.utu.fi/tech/education/ooj/ooj-harj5/pages>
+
+Your version: https://USERNAME.utugit.fi/ooj-harj5/

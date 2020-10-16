@@ -1,14 +1,14 @@
 package fi.utu.tech;
 
-import fi.utu.tech.fizzbuzz.FizzBuzz;
-
 public class Main {
-    /**
-     * Main class.
-     * @param args Command line arguments
-     */
     public static void main(String[] args) {
-        for(String i: FizzBuzz.fizzBuzz())
-            System.out.println(i);
+        var a = new Kissa("Misse", 5);
+        var b = new Kissa("Mirri", 10);
+        var c = new Koira("Musti", 1);
+
+        a.tervehdi();
+        b.miu();
+        c.tervehdi();
+        c.nouda(new Keppi());
     }
 }
