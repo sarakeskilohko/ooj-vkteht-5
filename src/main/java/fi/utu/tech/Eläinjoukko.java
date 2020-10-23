@@ -7,12 +7,12 @@ public abstract class Eläinjoukko {
 
 
 
-    private static int idd = 1;
+    private static int id = 1;
 
     private int joukkoid;
 
     public Eläinjoukko(){
-        joukkoid = idd++;
+        joukkoid = id++;
     }
 
     @Override
