@@ -1,5 +1,8 @@
 package fi.utu.tech;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public abstract class Eläin {
     private final String nimi;
     private final String laji;
@@ -26,4 +29,6 @@ public abstract class Eläin {
     public String toString() {
         return nimi + "-" + laji + " (" + ikä + "v)";
     }
+
+
 }
