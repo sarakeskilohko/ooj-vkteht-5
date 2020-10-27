@@ -71,6 +71,8 @@ public class Main {
 
         kissaTervehdi(kissalista);
         koiraTervehdi(koiralista);
+        nouto(koiralista);
+        tervehdi(eläinlista);
 
     }
 
@@ -82,6 +84,17 @@ public class Main {
     public static void koiraTervehdi(ArrayList<Koira> ko) {
         System.out.println("Koirat tervehtivät:");
         for (var e : ko) e.tervehdi();
+    }
+
+    public static void nouto(ArrayList<Koira> koirat) {
+            System.out.println("Koirat noutavat kepin:");
+            Keppi keppi = new Keppi();
+            for (var k : koirat) k.nouda(keppi);
+    }
+
+    public static<E extends Eläin> void tervehdi(ArrayList<E> eläimet) {
+        System.out.println("Eläimet tervehtivät:");
+        for (var t : eläimet) t.tervehdi();
     }
 
 }
